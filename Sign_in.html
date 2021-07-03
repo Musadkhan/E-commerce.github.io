@@ -1,0 +1,179 @@
+<html>
+<title>Sign in here</title>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header>
+	<div class="bkg"></div>
+	<div class="Box" >
+		<h2>Sign in</h2>
+		<div class="FirstLine" ><hr></div>
+		<br>
+		<div class="SignupTools" >
+			<p><input type="text" placeholder="Mobile Number or Email"></p>			
+			<input type="password" placeholder="Password ">				
+			<a href="HomePage.html"><p><button>Login</button></a>
+		<hr>
+		</div>
+		<p>Don't have any account <a href="DemoSignup.html">signup</a> here</p>
+	</div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------CSS------------------------>
+<style>
+
+	body{
+		margin: 0;
+		padding: 0;
+		font-family: "Roboto", sans-serif;
+		position:relative;
+
+	
+		
+	}
+	
+	.bkg{
+		background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRg1Vic-0oz2dA1AnAa3aMyCWoxvzQztpBwlA&usqp=CAU");
+		background-repeat:no-repeat;
+		background-size: cover;
+		background-position: center;
+
+		position: fixed;
+  		left: 0;
+  		right: 0;
+ 		 z-index: 1;
+  		display: block;
+
+		height:100%;
+		width:100%;
+	}
+
+
+	header{
+		height:100%;
+		width:100%;
+		
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		user-select: none;  
+
+
+	}
+	.box{
+		width: 100%;
+		height:340px;		
+		border:1px solid black;		
+		transition:0.9s;
+		animation: slide_up 2.5s ease;
+		 z-index: 9999;
+	}
+
+	.box:hover{
+		-webkit-box-shadow: -1px -1px 54px 27px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 54px 27px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 54px 27px rgba(0,0,0,0.75);
+	}
+
+	input[type="text"],[type="password"]{
+		
+             		display: block;
+           		margin : 0 auto;
+        	}
+
+
+	.SignupTools input{
+		border:none;
+		color: black;		
+		background: none;
+		width: 70%;
+		padding:1.5%;
+		border-bottom: 1px solid black;
+	}
+
+	.SignupTools hr{
+		width: 50%;
+		margin: auto;
+		padding 5px;
+		background: #Blue;
+	}
+
+	.info{
+		font-size: 80%;
+		text-align: center;		
+	}
+
+	.Box button{
+		display: block;
+           		margin : 0 auto;
+		padding: 0.7rem 3rem;
+		font-size:1.2rem;
+		border: 1px solid black;
+		border-radius: 50px;
+		cursor: pointer;
+		margin-top: 30px;		
+		background: none;
+		user-select:none;
+	}
+
+	.Box button:hover{
+		background:#7E86F6 ;
+	}
+
+	.box h2{
+		text-align: center;		
+		
+	}
+	
+	.FirstLine hr{
+		width: 90%;
+		margin: auto;
+		padding 5px;
+		background: #290624;
+		
+	}
+
+	.box p{
+		text-align:center;
+	}
+
+
+	@media screen and (min-width: 700px){
+		.box{
+			width: 40%;
+		}
+	}
+
+
+
+
+
+</style>
+<!------------------------------------------CSS END------------------------>
+
+
+
+
+
+
+</body>
+</html>

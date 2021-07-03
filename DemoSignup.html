@@ -1,0 +1,132 @@
+<html>
+<title>Sign up here</title>
+
+<head>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header>
+	<div class="Box" >
+		<h2>Create account</h2>
+		<hr>
+		<div class="SignupTools" >
+			<p><input type="text" placeholder="Mobile Number "></p>
+			<p><input type="text" placeholder="Email-Id (optional)"></p>
+			<input type="password" placeholder="Password ">	<br>	
+			<div class="info" >* Passwords must be at least 6 characters.</div><br>
+	
+			<button onclick="window.location.href='HomePage.html'">Continue</button>
+		</div>
+		<p>Already have account ! <a href="Sign_in.html">Sign in</a> here</p>
+	</div>
+</header>
+
+
+
+<style>
+
+
+	body{
+		margin: 0;
+		padding: 0;
+		font-family: "Roboto", sans-serif;
+		position:relative;
+	}
+
+
+	header{
+		background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqcsnfOIRvoLtOuWEpaFzUJR2G_ea_bY2udj6H7ISczgLVnQca_QPCOLltKW8rHVkp9Zg&usqp=CAU");
+		background-repeat:no-repeat;
+		background-size: cover;
+		
+		height:100%;
+		width:100%;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		user-select: none;  
+	}
+
+
+
+	.box{
+		width: 50%;
+		height:400px;		
+		border:1px solid black;		
+		transition:0.9s;
+		
+	}
+
+	.box:hover{
+		-webkit-box-shadow: -1px -1px 54px 27px rgba(0,0,0,0.75);
+		-moz-box-shadow: -1px -1px 54px 27px rgba(0,0,0,0.75);
+		box-shadow: -1px -1px 54px 27px rgba(0,0,0,0.75);
+	}
+
+
+	.box h2{
+		text-align: center;		
+		
+	}
+
+
+	input[type="text"],[type="password"]{
+		
+             		display: block;
+           		margin : 0 auto;
+        	}
+
+
+	.SignupTools input{
+		border:none;
+		color: black;		
+		background: none;
+		width: 70%;
+		padding:1.5%;
+		border-bottom: 1px solid black;
+	}
+
+	.info{
+		font-size: 80%;
+		text-align: center;		
+	}
+	
+	
+	.Box button{
+		display: block;
+           		margin : 0 auto;
+		padding: 0.7rem 3rem;
+		font-size:1.2rem;
+		border: 1px solid black;
+		border-radius: 50px;
+		cursor: pointer;
+		margin-top: 10px;		
+		background: none;
+		user-select:none;
+	}
+
+	
+	.Box button:hover{
+		background:#7E86F6 ;
+	}
+
+
+	.tc{
+		 display: table;
+  		margin-right: auto;
+  		margin-left: auto;
+		
+	}
+
+
+	.box p{
+		text-align:center;
+	}
+</style>
+
+
+
+</body>
+</html>

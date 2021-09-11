@@ -1,0 +1,221 @@
+<html>
+
+<title>Upcoming Smartphones
+</title>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<body>
+	<div class="back">
+		<a href="HomePage.html"><i class="fas fa-home"></i></a>
+	</div>
+
+
+<div class="baap">
+<!-----------------------------------------------------------------------OneplusNarzo------------------------------------------------------------------------------------>
+	<div class="card n">
+		<div class="imgbx">
+			<img src="https://images.samsung.com/is/image/samsung/in-galaxy-note10-lite-sm-n770-6gb-sm-n770fzkoinu-laurablack-thumb-206236990?$480_480_PNG$">
+		</div>
+
+		<div class="contentBx">
+			<h3>Samsung Galaxy F12(4/64)</h3>
+			<h2 class="price">₹10,999.00</h2>
+			<a href="#" class="buy">Notify Me</a>
+		</div>
+	</div>
+
+	
+
+<!-----------------------------------------------------------------------SamsungGalaxyNote10------------------------------------------------------------------------------------>
+	<div class="card s">
+		<div class="imgbx">
+			<img src="http://cdn.shopify.com/s/files/1/1684/4603/products/samsungGalaxyNote10-Plus_Aura-Black_1200x1200.png?v=1574079372">
+		</div>
+
+		<div class="contentBx">
+			<h3>Samsung Galaxy Note 10(4/64)</h3>
+			<h2 class="price">₹27,999.00</h2>
+			<a href="#" class="buy">Notify Me</a>
+		</div>
+	</div>
+
+<!-----------------------------------------------------------------------MI 10i------------------------------------------------------------------------------------>
+	<div class="card m">
+		<div class="imgbx">
+			<img src="https://i01.appmifile.com/webfile/globalimg/in/cms/413CE598-3246-2DD2-8EF1-05212A59B5A7.jpg">
+		</div>
+
+		<div class="contentBx">
+			<h3>MI 10i(4/64)</h3>
+			<h2 class="price">₹10,999.00</h2>
+			<a href="#" class="buy">Notify Me</a>
+		</div>
+	</div>	
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<style>
+		*{
+			//margin:0;
+			//padding:0;
+			
+		}
+		body{
+			display:flex;
+			min:height:100vh;
+			background:#09161d;
+		}
+
+		.baap{
+			display: grid;
+    			grid-template-columns: 1fr 1fr 1fr;
+    			grid-gap: 100px;
+		}
+
+		.back a{		
+			display:flex;
+			width:40px;
+			height:20px;
+			font-size:40px;
+			position:relative;
+			top:20px;
+			left:15px;
+		}
+		.card{
+			flex:1;
+			position:relative;
+			width:320px;
+			height:500px;
+			background:#122936;
+			border-radius:20px;
+			overflow:hidden;
+			top:80px;			
+		}
+		
+		.card::before{
+			content: ' ';
+			position: absolute;
+			top: -28%;
+			width: 100%;
+			height: 100%;
+			background: #fff;
+			transform: skewY(345deg);
+			transition:0.5s;
+			
+		}
+		.card:hover::before{		
+			top:-60%;
+			transform: skewY(390deg);
+		}
+
+
+		.card .imgbx{
+			position: relative;
+			width:100%;
+			display: block;
+			justify-content: center;
+			align-items: center;
+			padding-top: 20px;
+			z-index: 1;
+		}
+		.card .imgbx img{
+			max-width:100%;
+			transition:0.5s;
+		}
+		.card:hover .imgbx img{
+			max-width:50%;			
+		}
+
+
+		.card .contentBx{
+			position:relative;
+			padding:55px;
+			display:flex;
+			justify-content: center;
+			align-item:center;
+			flex-direction: column;
+			z-index:1;
+		}
+		
+		.card .contentBx  h3{
+			font-size:28px;
+			color: #fff;
+			font-weight:500;
+			latter-spacing:1px;
+		}
+
+		.card .contentBx .price{
+			font-size:30px;
+			color: #fff;
+			font-weight:500;
+			latter-spacing:1px;
+		}
+				
+		.card .contentBx .buy{
+			position:relative;
+			top:200px;
+			opacity:0;
+			padding: 10px 2px;;
+			margin-top: 15px;
+			color:#fff;
+			background:#2196f3;
+			border-radius:30px;
+			text-decoration:none;
+			letter-spacing: 1px;
+			transition:0.5s;
+			text-transform:uppercase;
+		}
+		
+		.card:hover .contentBx .buy{
+			top:-20px;
+			opacity:1;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</style>
+
+</body>
+</html>
